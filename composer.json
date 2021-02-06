@@ -1,0 +1,40 @@
+{
+    "name": "herokeyboard/proxycurl",
+    "type": "library",
+    "description": "Proxy Curl",
+    "version": "1.0.0",
+    "keywords": [
+    "herokeyboard",
+    "Curl",
+    "Proxy"
+    ],
+    "homepage": "https://github.com/herokeyboard/proxycurl/",
+    "license": "MIT",
+    "authors": [
+    {
+    	"name":"Herokeyboard",
+    	"email": "herokeyboard@github.com",
+        "homepage": "https://github.com/herokeyboard/proxycurl",
+        "role": "Developer"
+    },
+        {
+        "name":"Herokeyboard",
+    	"email": "herokeyboard@github.com",
+        "homepage": "https://github.com/herokeyboard/proxycurl",
+        "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "support": {
+        "issues": "https://github.com/herokeyboard/proxycurl/issues",
+        "source": "https://github.com/herokeyboard/proxycurl/releases"
+    },
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Herokeyboard\\": "src/"
+        }
+    }
+}
